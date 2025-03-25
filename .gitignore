@@ -21,3 +21,41 @@ yarn-error.log
 /.nova
 /.vscode
 /.zed
+# Ignore dependencies
+/vendor
+
+# Ignore environment files with sensitive data
+.env
+.env.backup
+.env.example.backup
+
+# Ignore temporary files and logs
+/storage/logs/*
+/storage/framework/*
+/storage/debugbar/*
+/storage/cache/*
+/storage/sessions/*
+/storage/views/*
+/storage/testing/*
+/public/storage
+/public/hot
+
+# Ignore composer and npm files
+composer.lock
+node_modules
+package-lock.json
+
+# Ignore testing database
+/database/database.sqlite
+
+# Ignore IDE and editor files
+.idea
+.vscode
+*.sublime-project
+*.sublime-workspace
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore PHPUnit test files
+.phpunit.result.cache
